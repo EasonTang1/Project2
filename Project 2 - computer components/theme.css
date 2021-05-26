@@ -7,14 +7,40 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
+	background-image: url(img/hackerman.jpg);
+	background-repeat: none;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
-.general {
-	margin-top: 50px;
+
+div {
+	margin-top: 100px;
+	background-color: #d3d3d3;
+    width: auto;
+    overflow:visible;
+	opacity: 0.9;
+	margin-bottom: 100px;
 }
 
-.invisible {
-	font-color:white;
+
+.left{
+		float: left;
+		margin-top: 10px;
+		margin-right: 20px;
+		width: 200px;
+		border: 3px black solid;
+		border-radius:20px;
+}
+		
+.right{
+	float: right;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 200px;
+	border: 3px black solid;
+	border-radius:20px;
 }
 
 h1 {
@@ -30,14 +56,11 @@ h3 {
 }
 
 
-rgb(186,242,239,0.8)
-
-
 /* Navbar container */
 .navbar {
-	background-color:#b00029;
+	background-color:#d3d3d3;
 	padding: 0;
-	margin: 0;
+	margin-bottom: 100px;
 }
 
 /* Links inside the navbar */
@@ -70,14 +93,14 @@ rgb(186,242,239,0.8)
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #d3d3d3;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #d3d3d3;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -95,7 +118,7 @@ rgb(186,242,239,0.8)
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #d3d3d3;
 }
 
 /* Show the dropdown menu on hover */
